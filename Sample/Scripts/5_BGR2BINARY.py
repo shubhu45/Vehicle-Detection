@@ -7,7 +7,7 @@ import cv2
 
 img = cv2.imread('baboon.png')
 
-cv2.imshow('Baboon_Image',img)
+cv2.imshow('Baboon Image',img)
 cv2.waitKey(0)
 
 gray_img=cv2.imread('baboon.png',0)
