@@ -7,7 +7,7 @@ import cv2
 
 img = cv2.imread('baboon.png')
 
-cv2.imshow('Baboon_Image',img)
+cv2.imshow('Baboon Image',img)
 
 print img.shape
 
