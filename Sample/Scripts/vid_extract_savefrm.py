@@ -20,7 +20,7 @@ while x:
 	cv2.imshow('frame',gray)
 	#cv2.imshow('frame',hsv)
 	cnt+=1
-    	if cnt == 1000:         				#break after 500 frames
+    	if cnt == 1000:         				#break after 1000 frames
         	break
 
 sg_cap.release()
